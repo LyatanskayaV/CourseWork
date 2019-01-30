@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GraphicController">
+   <children>
+      <Button layoutX="203.0" layoutY="189.0" mnemonicParsing="false" onAction="#drawGraphic" text="Показать график" />
+      <DatePicker fx:id="firstDate" layoutX="154.0" layoutY="88.0" />
+      <DatePicker fx:id="secondDate" layoutX="154.0" layoutY="124.0" />
+      <Label layoutX="192.0" layoutY="60.0" text="Выберите период" />
+   </children>
+</AnchorPane>
